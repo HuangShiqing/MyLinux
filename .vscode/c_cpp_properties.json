@@ -3,12 +3,14 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include"
             ],
             "defines": [
                 "CONFIG_FLATMEM",
                 // CONFIG_NEED_MULTIPLE_NODES,
-                "CONFIG_ARM64_PAGE_SHIFT=12"
+                "CONFIG_ARM64_PAGE_SHIFT=12",
+                "CONFIG_PHYS_ADDR_T_64BIT",
             ],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c11",
