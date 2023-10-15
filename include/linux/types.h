@@ -6,6 +6,8 @@
 
 #ifndef __ASSEMBLY__
 
+typedef _Bool			bool;
+
 #ifdef CONFIG_PHYS_ADDR_T_64BIT
 typedef u64 phys_addr_t;
 #else

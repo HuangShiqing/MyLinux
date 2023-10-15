@@ -11,6 +11,17 @@
                 // CONFIG_NEED_MULTIPLE_NODES,
                 "CONFIG_ARM64_PAGE_SHIFT=12",
                 "CONFIG_PHYS_ADDR_T_64BIT",
+                "CONFIG_FLAT_NODE_MEM_MAP",
+                "CONFIG_NO_BOOTMEM",
+                "CONFIG_HAVE_MEMBLOCK",
+                // "CONFIG_HAVE_MEMBLOCK_NODE_MAP"
+                // CONFIG_NUMA
+                // CONFIG_ZONE_DMA
+                // CONFIG_ZONE_DMA32
+                // CONFIG_HIGHMEM
+                // CONFIG_ZONE_DEVICE
+                // CONFIG_HAVE_ARCH_ALLOC_REMAP
+                // CONFIG_FORCE_MAX_ZONEORDER
             ],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c11",
